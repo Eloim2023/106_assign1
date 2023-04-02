@@ -1,0 +1,48 @@
+h1{
+    color: rgb(22, 21, 20);
+    text-align: center;
+}
+
+/*
+.grid-two-columns{
+    display: flex;
+}
+*/
+main{
+    display:flex;
+}
+
+#list{
+    background-color: whitesmoke;
+    min-height: 60px;
+    flex:7;
+
+}
+
+#form{
+    background-color: rgb(185, 183, 187);
+    min-height: 60px;
+    flex:5;
+}
+
+.not-important{
+    font-size: 35px;
+    font-weight: 200;
+    color: #6a6a6b;
+    cursor: pointer;
+
+}
+
+.not-important:hover{
+    color: tomato;
+}
+
+.important{
+    font-size: 35px;
+    cursor: pointer;
+    color: tomato;
+}
+.important:hover{
+    color:rgb(202,95,77);
+}
+
